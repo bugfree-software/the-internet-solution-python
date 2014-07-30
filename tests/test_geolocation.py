@@ -1,7 +1,7 @@
 from . import TheInternetTestCase
 from helium.api import click, get_driver, S
 
-class AbTestingTest(TheInternetTestCase):
+class GeolocationTest(TheInternetTestCase):
 	def get_page(self):
 		return "http://the-internet.herokuapp.com/geolocation"
 	def test_fake_geolocation(self):
