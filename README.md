@@ -5,7 +5,7 @@ Automation of test cases from http://the-internet.herokuapp.com/ using Helium (h
 
 ## How to test The Internet?
 
-To run the tests, fork the repository, go into the main directory and run the following from command prompt/terminal:
+To run the tests, clone the repository, go into the main directory and run the following from command prompt/terminal:
 
 ```
 > nosetests tests/
